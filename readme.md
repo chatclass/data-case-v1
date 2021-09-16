@@ -30,4 +30,4 @@ Agora, através de queries SQL, consiga o **budget** total (somatório) de todos
 
 ### API REST
 
-Depois de ver um bom filme bate aquele tédio, não é? Bom, a atividade desta etapa é consultar esta [API](https://www.boredapi.com/documentation) através de um GET e buscar uma atividade para matar o tédio!
+Depois de ver um bom filme bate aquele tédio, não é? Bom, a atividade desta etapa é consultar (via python) esta [API](https://www.boredapi.com/documentation) através de um GET e buscar uma atividade para matar o tédio!
