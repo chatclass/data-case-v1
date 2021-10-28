@@ -18,16 +18,19 @@ O objetivo é testar 3 habilidades:
 
 Para isso, vamos precisar que execute as seguintes tarefas:
 
-### ETL com Python:
+### 1. ETL com Python:
 
 Na tabela credits, extraia da coluna **crew** (lista de pessoas) quem é o diretor do filme (nome e ID). Pra isso, basta encontrar na lista de pessoas, alguém cujo **job** é **Director** (cuidado com case sensitive). Alguns filmes não vão ter essa informação, mas são bem poucos.
 
-### SQL
+### 2. SQL
 
 Após conseguir adicionar o nome do diretor e seu ID em cada linha da tabela credits, crie um banco de dados SQLite e insira as duas tabelas (movies e credits) no banco, utlizando formatos coerentes para as colunas. Não é necessário inserir as colunas JSON, pode descartá-las.
 
-Agora, através de queries SQL, consiga o **budget** total (somatório) de todos os filmes para cada um dos diretores. Os diretores estão na tabela credits e os budgets na tabela movies.
+Agora, através de queries SQL:
+1. Liste o **budget** total (somatório) de todos os filmes para cada um dos diretores. Os diretores estão na tabela credits e os budgets na tabela movies.
+2. Liste a soma acumulada do faturamento (**revenue**) dos diretores a cada novo filme, por ordem de data de release dos filmes (apenas para filmes da "Warner Bros.")
+3. Liste as top 10 produtoras em faturamento no ano de 2009
 
-### API REST
+### 3. API REST
 
 Depois de ver um bom filme bate aquele tédio, não é? Bom, a atividade desta etapa é consultar (via python) esta [API](https://www.boredapi.com/documentation) através de um GET e buscar uma atividade para matar o tédio!
